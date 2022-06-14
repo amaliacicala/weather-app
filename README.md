@@ -10,13 +10,13 @@ _...or have it as a stand-alone app on your mobile!_
 
 `On Android:`
 1. Open in Chrome (https://amalias-weather-app.netlify.app)
-2. Tap on the top-right menu icon (the three dots)
+2. Tap the top-right menu icon (the three dots)
 3. Tap 'Add to Home screen'
 
 `On iPhone:`
 1. Open in Safari (https://amalias-weather-app.netlify.app)
-2. Tap on the Share icon at the bottom of the page
-3. Scroll down to and tap on 'Add to Home Screen'
+2. Tap the Share icon at the bottom of the page
+3. Scroll down to and tap 'Add to Home Screen'
 
 
 ---
