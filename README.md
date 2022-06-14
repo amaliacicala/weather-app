@@ -2,6 +2,10 @@
 
 ## Weather App developed using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) and the [OpenWeather API](https://openweathermap.org/price) (_free version_).
 
+👉🏻 [View the App](https://amalias-weather-app.netlify.app) 👈🏻
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bb40b01-7a2a-4f3d-81d4-b440be7706d1/deploy-status)](https://app.netlify.com/sites/amalias-weather-app/deploys)
+
 ---
 
 - OpenWeather API Documentation: [here](https://openweathermap.org/current)
