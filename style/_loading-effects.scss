@@ -1,0 +1,21 @@
+/* ------- LOADING EFFECTS ------- */ 
+
+.js-loading .weather-icon {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.js-loading .weather-specs {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.js-loading .panel {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.js-loading footer {
+    opacity: 0;
+    transform: scale(0);
+}

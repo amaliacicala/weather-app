@@ -1,0 +1,15 @@
+/* --------- MEDIUM to LARGE SCREENS --------- */ 
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    .container {
+        width: 60%;
+    }
+}
+
+/* ----------- EXTRA-LARGE SCREENS ----------- */ 
+
+@media (min-width: 1200px) {
+    .container {
+        width: 30%;
+    }
+}

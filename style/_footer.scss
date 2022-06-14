@@ -1,0 +1,38 @@
+/* ------- FOOTER ------- */ 
+
+footer {
+    position: relative;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 5%;
+    padding: 0.5rem;
+
+    background-color: white;
+    border-top: solid 1px #ffb379;
+    font-size: 0.7rem;
+    transition: opacity 0.5s 1s;
+
+        i {
+            color: #ffb379;
+            margin: 0 0.1rem;
+            font-size: 0.8rem;
+        }
+
+        a {
+            color: #435768;
+            -webkit-text-decoration: underline wavy 1.2px #ffb379;
+            text-decoration: underline wavy 1.2px #ffb379;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                -webkit-text-decoration: underline wavy 1.2px transparent;
+                text-decoration: underline wavy 1.2px transparent;
+                color: #ffb379;
+            }
+        }
+  }

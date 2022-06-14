@@ -1,0 +1,78 @@
+/* ----------- BODY ----------- */ 
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    flex: 1 0 auto;
+}
+
+.weather-icon {
+    max-width: 50%;
+    margin-top: 1rem;
+    transition: transform 1s, opacity 0.5s;
+}
+
+.weather-location {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.weather-temperature {
+    font-size: 5rem;
+    margin-top: 0.5rem;
+}
+
+.weather-specs {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    transition: transform 1s 0.5s, opacity 0.5s;
+}
+
+.specs-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px rgb(231, 231, 231);
+    
+    h5 {
+        color: dodgerblue;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.temperature-specs {
+    @extend .specs-box;
+}
+
+.other-specs {
+    @extend .specs-box;
+
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    transition: transform 1s 0.5s, opacity 0.5s;
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: dodgerblue;
+            margin-bottom: 1rem;
+        }
+}
