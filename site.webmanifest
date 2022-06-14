@@ -4,6 +4,36 @@
     "description": "Weather App displaying real feel, maximum and minimum temperatures, humidity, wind, and suggestions based on the weather forecast.",
     "orientation": "portrait-primary",
     "icons": [{
+      "src": "/images/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/favicon-48x48.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/favicon-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
       "src": "/images/favicon-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
