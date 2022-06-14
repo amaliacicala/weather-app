@@ -38,6 +38,6 @@
     "scope": "/",
     "background_color": "#1e90ff",
     "theme_color": "#1e90ff",
-    "display": "fullscreen"
+    "display": "standalone"
   }
   
