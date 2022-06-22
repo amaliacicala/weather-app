@@ -19,11 +19,13 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1.5rem;
+  color: black;
 }
 
 .weather-temperature {
   font-size: 5rem;
   margin-top: 0.5rem;
+  color: black;
 }
 
 .weather-specs {
@@ -47,7 +49,6 @@
   border-bottom: solid 1px rgb(231, 231, 231);
 }
 .specs-box h5, .other-specs h5, .temperature-specs h5 {
-  color: dodgerblue;
   margin-bottom: 0.5rem;
 }
 
@@ -66,7 +67,6 @@
 .panel h4 {
   font-size: 1.2rem;
   font-weight: 400;
-  color: dodgerblue;
   margin-bottom: 1rem;
 }
 
@@ -147,10 +147,8 @@ footer a:hover {
 html {
   font-family: Work Sans, sans-serif;
   line-height: 1;
-  color: black;
-  background-image: linear-gradient(white, dodgerblue);
-  background-attachment: fixed;
   height: 100%;
+  color: black;
 }
 
 body {
@@ -158,4 +156,48 @@ body {
   flex-direction: column;
   height: 100%;
   text-align: center;
+}
+
+p {
+  color: black;
+}
+
+.dawn {
+  background-image: linear-gradient(#a58cd4, #eda37e);
+  background-attachment: fixed;
+  color: #eda37e;
+}
+
+.sunrise {
+  background-image: linear-gradient(#5995B7, #FAFBBD);
+  background-attachment: fixed;
+  color: #FAFBBD;
+}
+
+.morning {
+  background-image: linear-gradient(white, dodgerblue);
+  background-attachment: fixed;
+  color: dodgerblue;
+}
+
+.afternoon {
+  background-image: linear-gradient(#abdfff, #0081ff);
+  background-attachment: fixed;
+  color: #0081ff;
+}
+
+.sunset {
+  background-image: linear-gradient(#e6945e, #b04d79);
+  background-attachment: fixed;
+  color: #e6945e;
+}
+
+.night {
+  background-image: linear-gradient(#08013C, #213987);
+  background-attachment: fixed;
+  color: #3452b5;
+}
+
+.white {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

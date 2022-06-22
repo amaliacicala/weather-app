@@ -10,8 +10,35 @@ const weatherHumidity = document.querySelector('.humidity');
 const weatherWind = document.querySelector('.wind');
 const suggestionParagraph = document.querySelector('.suggestion');
 
+
 // location fetching through the Geolocation API
 window.navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+// change theme based on time of day
+document.addEventListener('DOMContentLoaded', function() {
+	let now = new Date();
+	let hours = now.getHours(); 
+
+	if (hours >= 5 && hours <= 6){
+        document.body.className = "dawn";
+    } else if (hours > 6 && hours <= 7) {
+	    document.body.className = "sunrise";
+    } else if (hours >= 7 && hours <= 13) {
+        document.body.className = "morning";
+    } else if (hours > 13 && hours <= 19) {
+        document.body.className = "afternoon";
+    } else if (hours > 19 && hours <= 20) {
+        document.body.className = "sunset";
+        weatherLocation.classList.add("white");
+        weatherTemperature.classList.add("white");    
+    } else if (hours > 20 && hours <= 21) {
+        document.body.className = "dusk";
+    } else {
+        document.body.className = "night";
+        weatherLocation.classList.add("white");
+        weatherTemperature.classList.add("white");    
+    }
+});
 
 // in case of error
 function onError(error) {
